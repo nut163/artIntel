@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artIntel - Cutting-edge Techno Record Label</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <img src="assets/logo.png" alt="artIntel Logo">
+        <h1>artIntel - Redefining Techno Music</h1>
+    </header>
+
+    <section class="introduction" id="intro">
+        <h2>Welcome to artIntel</h2>
+        <p>Committed to showcasing the best of cutting-edge techno artists.</p>
+    </section>
+
+    <section class="featured-releases" id="releases">
+        <h2>Featured Releases</h2>
+        <div id="release1">
+            <img src="assets/release1.jpg" alt="Release 1">
+            <p>Artist Name - Track Name</p>
+            <button onclick="playSample('release1')">Play Sample</button>
+        </div>
+        <!-- More releases go here -->
+    </section>
+
+    <section class="artist-section" id="artists">
+        <h2>Our Artists</h2>
+        <div id="artist1">
+            <img src="assets/artist1.jpg" alt="Artist 1">
+            <p>Artist Name</p>
+            <button onclick="showArtistDetails('artist1')">More Info</button>
+        </div>
+        <!-- More artists go here -->
+    </section>
+
+    <section class="event-calendar" id="calendar">
+        <h2>Upcoming Events</h2>
+        <div id="event1">
+            <img src="assets/event1.jpg" alt="Event 1">
+            <p>Event Name</p>
+            <button onclick="showEventDetails('event1')">More Info</button>
+        </div>
+        <!-- More events go here -->
+    </section>
+
+    <section class="contact-subscription" id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="subscribe(event)">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+</body>
+</html>
